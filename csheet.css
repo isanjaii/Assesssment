@@ -1,0 +1,81 @@
+h1{
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 5em;
+    letter-spacing: -2px;
+    border-bottom: 2px solid black;
+    text-transform: uppercase;
+   }
+
+label
+{
+    font-family: 'Segoe UI', Tahoma;
+    font-size: 2em;
+
+}
+
+input{
+    height:2%;
+
+
+}
+
+.button:hover{
+    box-shadow: 0 8px 16px 0 rgba(218, 161, 161, 0.2);
+}
+
+.button {
+
+    border-radius: 17px;
+    background-color: #f109897a;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 10px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    /* margin-left: 500px;
+    margin-top: 78px; */
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  #clearButton {
+      margin-top: 50px;
+      background-color: rgb(206, 8, 8);
+      
+  }
+#removeButton{
+    background-color: rgba(112, 255, 255, 0.925);
+}
+#view{
+    background-color: rgb(59, 59, 252);
+}
+#description{
+ height:100px;
+ width: 400px;
+}

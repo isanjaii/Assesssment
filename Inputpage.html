@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Local Storage</title>
+  <script type="text/javascript" src="inpage.js"></script>
+  <link rel="stylesheet" href="csheet.css">
+</head>
+
+<body>
+  <div id="formDiv">
+    <form id="userData">
+      <h1>Blogger Page</h1>
+      <label for="title">Title</label>
+      <input type="text" id="title" placeholder="Title" required autofocus><br>
+      <label for="description" >Description</label>
+      <input type="text" id="description" placeholder="description" required><br>
+      <label for="key">Key</label>
+      <input type="text" id="key" placeholder="Key" required><br>
+      <!-- <div> -->
+      <div action="/action_page.php" id="image">
+        <input type="file" id="myFile" name="filename" required>
+      </div>
+      <button type="submit" class="button"><span>Submit</span></button>
+    </form>
+
+    <br>
+    <label for="retrieveKey">Enter Key to retrieve item</label>
+    <input type="text" id="retrieveKey" placeholder="retrieveKey" required><br>
+    <button id="view" class="button"><span>View</span></button>
+    <br>
+    <div id="retrieve"></div>
+    <br>
+    <label for="removeKey">Enter Key to delete item</label>
+    <input type="text" id="removeKey" placeholder="removeKey" required><br>
+    <button id="removeButton" class="button"><span>Delete</span></button>
+    <br>
+
+    <button id="clearButton" class="button"><span>Delete ALL</span></button>
+  </div>
+</body>
+
+</html>
