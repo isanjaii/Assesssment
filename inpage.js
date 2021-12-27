@@ -42,3 +42,14 @@ window.onload =function(){
     document.getElementById("removeButton").onclick = removeItem
     document.getElementById("view").onclick = retrieveRecords
 }
+
+
+var a=document.querySelector("title")
+var b = document.querySelector("#sanjay1");
+b.onclick= function(){
+ localStorage.setItem("keyy", a.value);
+}
+
+
+var c = document.querySelector("#sanjay2");
+c.value= localStorage.getItem("keyy");
