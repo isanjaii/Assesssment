@@ -40,5 +40,5 @@ window.onload =function(){
     document.getElementById("userData").onsubmit = store
     document.getElementById("clearButton").onclick = clearStorage
     document.getElementById("removeButton").onclick = removeItem
-    document.getElementById("retrieveButton").onclick = retrieveRecords
+    document.getElementById("view").onclick = retrieveRecords
 }
