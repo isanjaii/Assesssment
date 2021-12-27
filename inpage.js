@@ -102,5 +102,16 @@ var deletebtn4=  document.querySelector("#deletebtn4");
 var delete4 = document.querySelector("#delete4");
 deletebtn4.onclick =function(){
     delete4.remove();
+    
 }
 
+function store(){ 
+      var title = document.getElementById('title').value;
+      var description = document.getElementById('description').value;
+const loc = {
+           title: title,
+          description: description,
+}
+window.localStorage.setItem(key,JSON.stringify(loc));
+
+}
