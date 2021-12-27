@@ -5,17 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="Stylesheet.css">
-    <div><h1> SHARING IS CARING... </h1> </div>
-    <div><h2> FOOD for LIFE :)</h2></div>
-        
-    <style>
-      
-    
-      
-          
-  
-    </style>
+    <link rel="stylesheet" href="shc.css">
+    <h1> SHARING IS CARING... </h1> </div>
+    <h2> FOOD for LIFE :)</h2></div>
         </head>
         <body>
 
@@ -23,10 +15,10 @@
                 <div class="column">
                   <div class="card" id="delete1">
                     <img src="https://pinchofyum.com/wp-content/uploads/Coconut-Curry-Ramen-3-840x1200.jpg" alt="Coco">
-                    <a href="https://www.chefkunalkapur.com/recipe/basic-coconut-curry/">Coconut Curry</a>
-                    <button type="button" id ="btn1";>like</button>
+                    <a href="https://www.chefkunalkapur.com/recipe/basic-coconut-curry/">Coconut Curry</a> <br>
+                    <button type="button" id ="btn1" class="btn1";>Like</button>
                     <textarea name="" id="txt1" cols="1" rows="1" >0</textarea>
-                    <button type="button" id="deletebtn1">Delete</button> 
+                    <button type="button" id="deletebtn1" class="dlt" class="btn-two">Delete</button> 
                     
                   </div>
                 </div>
@@ -34,35 +26,39 @@
                   <div class="card" id="delete2">
                       <img src="https://pinchofyum.com/wp-content/uploads/Peanut-Sauce-3-840x1200.jpg" alt="Sauce">
                       <a href="https://en.wikipedia.org/wiki/Peanut_sauce">Peanut Sauce</a> 
-                      <button type="button" id="btn2">like</button> 
+                      <button type="button" id="btn2" class="btn1">Like</button> 
                       <textarea name="" id="txt2" cols="1" rows="1">0</textarea>
-                      <button type="button"id="deletebtn2">Delete</button> 
+                      <button type="button"id="deletebtn2"class="dlt">Delete</button> 
                   </div>
                 </div>
                 <div class="column">
                   <div class="card" id="delete3">
                       <img src="https://pinchofyum.com/wp-content/uploads/Creamy-Tortellini-Soup-840x1200.jpg" alt="Soup">
                       <a href="https://www.culinaryhill.com/cheese-tortellini-in-garlic-basil-sauce/">Tortellini Soup</a>
-                      <button type="button" id="btn3">like</button>
+                      <button type="button" id="btn3" class="btn1">Like</button>
                       <textarea name="" id="txt3" cols="1" rows="1">0</textarea>
-                      <button type="button" id="deletebtn3">Delete</button> 
+                      <button type="button" id="deletebtn3" class="dlt">Delete</button> 
                   </div>
                 </div>
                 <div class="column">
                   <div class="card" id="delete4">
                       <img src="https://pinchofyum.com/wp-content/uploads/Veggie-Korma-2-840x1200.jpeg" alt="Kurma">
                       <a href="https://www.indianhealthyrecipes.com/veg-kurma-recipe-vegetable-korma-recipe/">Veggie Korma</a>
-                      <button type="button" id="btn4">like</button>
+                      <button type="button" id="btn4" class="btn1">Like</button>
                       <textarea name="" id="txt4" cols="1" rows="1">0</textarea>
-                      <button type="button" id="deletebtn4">Delete</button> 
+                      <button type="button" id="deletebtn4" class="dlt">Delete</button> 
                   </div>
                 </div>
-              </div>
-            
-              <div>
-                  <button onclick="location.href='inputpage.html'" class="button"><span >ADD</span></button>
-                  
-              </div>
+                
+              </div> <br>
+              <h4>ADD YOUR BLOG HERE</h4>
+             <form class="userData">
+                 <label for="text" id="title">Title</label>
+                 <input type="text"> </input> <br>
+                 <textarea name="description" id="description" cols="50" rows="5">Description</textarea>
+                 <button type="submit" onclick="store()" class="button"><span >ADD</span></button>
+                 
+             </form>
                     <div class="footer"> 
             <p>About us</p>
             <p>FAQs</p>
@@ -70,6 +66,6 @@
             <p>Terms and conditions</p>
 
         </div>  
-     <script src="inpage.js"></script>  
+     <script src="shj.js"></script>  
 </body>
 </html>
