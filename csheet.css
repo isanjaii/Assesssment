@@ -79,3 +79,6 @@ input{
  height:100px;
  width: 400px;
 }
+body{
+  background-color: rgba(168, 247, 247, 0.795);
+}
