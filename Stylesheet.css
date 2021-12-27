@@ -1,9 +1,10 @@
 h1{
     background-color:rgb(88, 7, 48);
-    font-size: 20px;
+    font-size: 45px;
     font-family: 'Brush Script MT', cursive;
     text-align: center;
-    color: rgba(187, 51, 103, 0.932);
+    color: rgba(253, 171, 201, 0.301);
+    height: 50px;
     
 }
 h2{
@@ -128,4 +129,8 @@ a{
   .button:hover span:after {
     opacity: 1;
     right: 0;
+  }
+ .footer{
+      background-color: rgba(49, 48, 48, 0.596);
+      color: whitesmoke;
   }
