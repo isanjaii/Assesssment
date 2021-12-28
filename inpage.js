@@ -105,13 +105,27 @@ deletebtn4.onclick =function(){
     
 }
 
-function store(){ 
-      var title = document.getElementById('title').value;
-      var description = document.getElementById('description').value;
-const loc = {
-           title: title,
-          description: description,
-}
-window.localStorage.setItem(key,JSON.stringify(loc));
+// function store(){ 
+//       var title = document.getElementById('title').value;
+//       var description = document.getElementById('description').value;
+// const loc = {
+//            title: title,
+//           description: description,
+// }
+// window.localStorage.setItem(key,JSON.stringify(loc));
 
-}
+// }
+
+// var c = document.querySelector("#heading10");
+// var d = document.querySelector("#body10");
+// var e = document.querySelector("#btn10");
+// e.onclick= function (){
+
+// localStorage.setItem("heading",c.value);
+// localStorage.setItem("body",d.value);
+
+// }
+
+
+
+
